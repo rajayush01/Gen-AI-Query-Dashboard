@@ -1,4 +1,4 @@
-Gen AI Query Dashboard – Empowering Non-Technical Teams with Instant Insights
+# Gen AI Query Dashboard – Empowering Non-Technical Teams with Instant Insights
 
 
 🎯 Project Overview
@@ -8,10 +8,15 @@ The Gen AI Query Dashboard is an intuitive and AI-powered web application that a
 ⚡️ Key Features
 
 ✅ Natural Language Query Input – Users can input queries in simple language, and AI interprets the intent to fetch relevant data.
+
 ✅ AI-Powered Suggestions – Dynamic suggestions guide users to formulate accurate and meaningful queries.
+
 ✅ Instant Data Visualization – Displays results using engaging charts and summary stats.
+
 ✅ Query History – Users can revisit past queries and results.
+
 ✅ Error & Loading States – Provides smooth feedback while processing data.
+
 ✅ Dark Mode for Aesthetics – A visually appealing dark theme with neon-glow effects.
 
 🖥️ Tech Stack
@@ -47,10 +52,10 @@ git clone https://github.com/yourusername/gen-ai-query-dashboard.git
 cd gen-ai-query-dashboard
 📦 Step 2: Install Dependencies
 
-# Using npm
+Using npm
 npm install
 
-# Or using yarn
+Or using yarn
 yarn install
 🧩 Step 3: Configure Environment Variables
 Create a .env file in the root directory:
@@ -59,9 +64,10 @@ REACT_APP_API_BASE_URL=http://localhost:5000
 ⚠️ Note: For mock data and simulations, this value can be left as a placeholder.
 
 ⚙️ Step 4: Run the Application
-# Run the development server
+
+Run the development server
 npm start
 
-# Or using yarn
+Or using yarn
 yarn start
 📡 Application URL: http://localhost:3000
