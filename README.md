@@ -78,5 +78,7 @@ REACT_APP_API_BASE_URL=http://localhost:5000
 npm start
 
 Or using yarn
+
 yarn start
+
 📡 Application URL: http://localhost:3000
