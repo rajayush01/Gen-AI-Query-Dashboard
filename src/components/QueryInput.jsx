@@ -67,7 +67,7 @@ const QueryInput = () => {
         onClick={handleSubmit}
         className="btn-glow w-full mt-4"
       >
-        🚀 Submit Query
+        Submit Query
       </button>
     </div>
   );
