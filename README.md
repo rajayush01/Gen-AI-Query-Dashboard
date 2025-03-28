@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+Gen AI Query Dashboard – Empowering Non-Technical Teams with Instant Insights
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+🎯 Project Overview
 
-In the project directory, you can run:
+The Gen AI Query Dashboard is an intuitive and AI-powered web application that allows non-technical business teams to query complex datasets using natural language. The tool generates visual insights instantly, eliminating the need for data team intervention and accelerating decision-making.
 
-### `npm start`
+⚡️ Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Natural Language Query Input – Users can input queries in simple language, and AI interprets the intent to fetch relevant data.
+✅ AI-Powered Suggestions – Dynamic suggestions guide users to formulate accurate and meaningful queries.
+✅ Instant Data Visualization – Displays results using engaging charts and summary stats.
+✅ Query History – Users can revisit past queries and results.
+✅ Error & Loading States – Provides smooth feedback while processing data.
+✅ Dark Mode for Aesthetics – A visually appealing dark theme with neon-glow effects.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🖥️ Tech Stack
+⚙️ Frontend
+React.js – Component-based UI library for dynamic interfaces.
 
-### `npm test`
+Redux – State management for handling query interactions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tailwind CSS – Utility-first CSS for styling.
 
-### `npm run build`
+Chart.js / Recharts – Data visualization libraries for charts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🗂️ State Management
+Redux Toolkit – Manages global state efficiently.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Actions & Reducers – Handles query submission, results, and errors.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Installation Instructions
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+⚡️ Prerequisites
+Ensure the following dependencies are installed before proceeding:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Node.js v18+ – Download Node.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm or yarn – Package manager to install project dependencies.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Git – For version control.
 
-## Learn More
+Step 1: Clone the Repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git clone https://github.com/yourusername/gen-ai-query-dashboard.git
+cd gen-ai-query-dashboard
+📦 Step 2: Install Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Using npm
+npm install
 
-### Code Splitting
+# Or using yarn
+yarn install
+🧩 Step 3: Configure Environment Variables
+Create a .env file in the root directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+REACT_APP_API_BASE_URL=http://localhost:5000
+⚠️ Note: For mock data and simulations, this value can be left as a placeholder.
 
-### Analyzing the Bundle Size
+⚙️ Step 4: Run the Application
+# Run the development server
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Or using yarn
+yarn start
+📡 Application URL: http://localhost:3000
