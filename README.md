@@ -53,6 +53,7 @@ Git – For version control.
 # Step 1: Clone the Repository
 
 git clone [https://github.com/yourusername/gen-ai-query-dashboard.git](https://github.com/rajayush01/Gen-AI-Query-Dashboard)
+
 cd gen-ai-query-dashboard
 
 # 📦 Step 2: Install Dependencies
